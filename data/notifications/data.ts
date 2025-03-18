@@ -1,0 +1,88 @@
+import { NotificationType } from "./schema";
+
+export const notificationTypes: NotificationType[] = [
+  {
+    id: "1",
+    serialNo: "01",
+    notificationFor: "Members",
+    title: "Lorem Lorem",
+    description: "Lorem Lorem Lorem Lorem",
+  },
+  {
+    id: "2",
+    serialNo: "02",
+    notificationFor: "Coach",
+    title: "Lorem Lorem",
+    description: "Lorem Lorem Lorem Lorem",
+  },
+  {
+    id: "3",
+    serialNo: "03",
+    notificationFor: "All",
+    title: "Lorem Lorem",
+    description: "Lorem Lorem Lorem Lorem",
+  },
+  {
+    id: "4",
+    serialNo: "04",
+    notificationFor: "Members",
+    title: "Lorem Lorem",
+    description: "Lorem Lorem Lorem Lorem",
+  },
+  {
+    id: "5",
+    serialNo: "05",
+    notificationFor: "Coach",
+    title: "Lorem Lorem",
+    description: "Lorem Lorem Lorem Lorem",
+  },
+  {
+    id: "6",
+    serialNo: "06",
+    notificationFor: "All",
+    title: "Lorem Lorem",
+    description: "Lorem Lorem Lorem Lorem",
+  },
+  {
+    id: "7",
+    serialNo: "07",
+    notificationFor: "Members",
+    title: "Lorem Lorem",
+    description: "Lorem Lorem Lorem Lorem",
+  },
+  {
+    id: "8",
+    serialNo: "08",
+    notificationFor: "Coach",
+    title: "Lorem Lorem",
+    description: "Lorem Lorem Lorem Lorem",
+  },
+  {
+    id: "9",
+    serialNo: "09",
+    notificationFor: "All",
+    title: "Lorem Lorem",
+    description: "Lorem Lorem Lorem Lorem",
+  },
+  {
+    id: "10",
+    serialNo: "10",
+    notificationFor: "Members",
+    title: "Lorem Lorem",
+    description: "Lorem Lorem Lorem Lorem",
+  },
+  {
+    id: "11",
+    serialNo: "11",
+    notificationFor: "Coach",
+    title: "Lorem Lorem",
+    description: "Lorem Lorem Lorem Lorem",
+  },
+  {
+    id: "12",
+    serialNo: "12",
+    notificationFor: "All",
+    title: "Lorem Lorem",
+    description: "Lorem Lorem Lorem Lorem",
+  },
+];
