@@ -58,7 +58,7 @@ export function AddSectionDialog({
   onOpenChange,
   onAdd,
 }: AddSectionDialogProps) {
-  const [step, setStep] = React.useState(1);
+  const [step, setStep] = React.useState(2);
   const [sectionName, setSectionName] = React.useState("");
   const [sectionType, setSectionType] = React.useState<string>("");
 
@@ -70,7 +70,8 @@ export function AddSectionDialog({
       exercises: [],
     });
     onOpenChange(false);
-    setStep(1);
+    // setStep(1);
+    setStep(2);
     setSectionName("");
     setSectionType("");
   };
